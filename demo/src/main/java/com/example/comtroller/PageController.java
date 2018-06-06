@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 /**
- * @author ziHan
+ * @author wxh
  * @Package com.example.demo
  * @Description: TODO
  * @date 2018/6/4 0004 上午 10:39
@@ -18,6 +18,9 @@ public class PageController {
     @GetMapping("/hello")
     public ModelAndView hello(){
         ModelAndView modelAndView = new ModelAndView("hello");
+        String a = "aaaaaaaaa ";
+
+
         return modelAndView;
     }
 }
