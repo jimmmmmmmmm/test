@@ -19,7 +19,7 @@ public class PageController {
     public ModelAndView hello(){
         ModelAndView modelAndView = new ModelAndView("hello");
         String a = "aaaaaaaaa ";
-        String v = "";
+        String v = "ss";
 
 
         return modelAndView;
