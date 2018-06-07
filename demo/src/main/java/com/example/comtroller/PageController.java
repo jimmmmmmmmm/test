@@ -19,8 +19,8 @@ public class PageController {
     public ModelAndView hello(){
         ModelAndView modelAndView = new ModelAndView("hello");
         String a = "aaaaaaaaa ";
-        String v = "ss";
 
+        String aa= "ddd";
 
         return modelAndView;
     }

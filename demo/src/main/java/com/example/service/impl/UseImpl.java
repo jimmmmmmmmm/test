@@ -16,8 +16,11 @@ public class UseImpl implements UserItf {
     @Autowired
     private UserRepostiory userRepostiory;
 
+
     @Override
     public List<User> findAll() {
         return userRepostiory.findAll();
     }
+
+
 }
