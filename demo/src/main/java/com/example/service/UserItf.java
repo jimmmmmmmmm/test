@@ -9,4 +9,5 @@ import java.util.List;
  */
 public interface UserItf {
     List<User> findAll();
+    User findById(Integer Id);
 }

@@ -72,6 +72,16 @@ public class TestController {
         log.info("log info日志：使用redis了");
         return redisUtil.getString("a");
     }
-
+    @ApiOperation(value = "mbatis测试", notes = "这返回User")
+    @ApiImplicitParams({
+            @ApiImplicitParam(name = "userid", value = "参数a", required = true,
+                    dataType = "Integer", paramType = "query"),
+    })
+    @GetMapping("/mbatis")
+    public  User getJmbatis(Integer userid){
+        User user = userItf.findById(userid);
+        log.info("log info日志：mbatis");
+        return user;
+    }
    
 }
