@@ -8,3 +8,5 @@ redis
 sawwgers
 
 连接mysql
+
+mabatis mapper
