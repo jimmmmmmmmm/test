@@ -1,6 +1,8 @@
 # test
 springboot项目
 
+eureka 客户端  
+
 jpa
 
 redis
