@@ -46,6 +46,7 @@ public class TestController {
     })
     @GetMapping("/query_merchant_product_list")
     public Map getJson(String a, String b, Integer c){
+
         Map map = new HashMap(3);
         map.put("a",a);
         map.put("b",a);

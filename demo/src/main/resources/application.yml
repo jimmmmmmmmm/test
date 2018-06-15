@@ -1,6 +1,12 @@
 server:
   port: 8082
-
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/,http://localhost:8762/eureka/,http://localhost:8763/eureka/
+#  自定义链接
+#  instance:
+#    hostname: name
 spring:
   datasource:
     url: jdbc:mysql://127.0.0.1:3306/test?useUnicode\=true&amp;characterEncoding\=UTF-8
